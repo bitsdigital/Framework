@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Fabrício Elias -- Web Developer -- fabricio.bits@prix.com.br
+    Túlio Azevedo  -- Web Designer  -- tulio.bits@prix.com.br
+
+# THANKS
+
+    Anton Koovit, Design Deck site, HTML5 Boilerplate team, Jonny Pinhorn
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    CSS3 Mediaqueries, jQuery, Modernizr
+    Adobe Fireworks CS6, Steed, SublimeText 2, WinLESS, WampServer, Wordpress

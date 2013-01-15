@@ -1,0 +1,365 @@
+//
+// Índice
+//  
+// $ Variáveis de cor
+// $ Chromeframe
+// $ HTML e Body
+// $ Classes auxiliares
+// $ Tipografia
+// $
+// $ Lap
+// $ Palm
+//
+
+// ==========================================================================
+// $ Variáveis de cor
+// ==========================================================================
+
+// ==========================================================================
+// $ Chromeframe
+// ==========================================================================
+
+.chromeframe {
+  background: #ffffdd;
+  font-size: .75em;
+  padding: 5px 10px;
+
+  a {
+    text-decoration: underline;
+  }
+
+}
+
+// ==========================================================================
+// $ HTML e Body
+// ==========================================================================
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-size: 1em;
+  font-smoothing: antialiased; -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
+// ==========================================================================
+// $ Classes auxiliares
+// ==========================================================================
+
+  // Classes auxiliares
+  // ==========================================================================
+
+  // Classes de texto
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-lower {
+    text-transform: lowercase;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .text-upper {
+    text-transform: uppercase;
+  }
+
+  // Clearfix
+
+  .clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+  }
+
+  // Floats
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  // Visualização
+
+  .block {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .image-replace {
+    overflow: hidden;
+    text-indent: -9999em;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .table {
+    display: table;
+  }
+
+  .table-cell {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+// ==========================================================================
+// $ Tipografia
+// ==========================================================================
+
+  // Address
+  // ==========================================================================
+
+  address {
+    font-style: normal;
+  }
+
+  // Blockquotes and q
+  // ==========================================================================
+
+  blockquote {
+    font-style: oblique;
+    margin: 0 0 1.5em;
+
+    footer:before {
+      content: '— '
+    }
+
+  }
+
+  q,
+  .open-quote:before {
+    content: '“';
+  }
+
+  q,
+  .close-quote:after {
+    content: '”';
+  }
+
+  // Font-faces
+  // ==========================================================================
+
+  // Formulários
+  // ==========================================================================
+
+  // ul.form inicia o processo
+
+  .form {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      height: 1.5em;
+      margin-bottom: 1.5em;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      vertical-align: baseline;
+    }
+
+    input,
+    label {
+      .inline-block;
+      height: 24px;
+
+      &.placeholder-replace {
+        overflow: hidden;
+        width: 0;
+      }
+
+    }
+
+    input,
+    textarea {
+      border: 0;
+      box-sizing: border-box;
+      font-family: inherit;
+      line-height: 1.5;
+      padding: 0 10px;
+      resize: none;
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+
+  }
+
+  // Headings e small
+  // ==========================================================================
+
+  // Headings
+
+  h1,
+  .h1-size {
+    font-size: 2.25em;
+    line-height: 1.33335;
+    margin-bottom: 1.33335em;
+    margin-top: 0;
+  }
+
+  h2,
+  .h2-size {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+
+  h3,
+  .h3-size {
+    font-size:  1.3125em;
+    line-height: 1.14285;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+  }
+
+  h4,
+  .h4-size {
+    font-size: 1.125em;
+    line-height: 1.33335;
+    margin-bottom: 1.33335em;
+    margin-top: 0;
+  }
+
+  h5,
+  .h5-size {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+  }
+
+  h6,
+  .h6-size {
+    font-size: .875em;
+    line-height: 1.71425;
+    margin-bottom: 1.71425em;
+    margin-top: 0;
+  }
+
+  // Small
+
+  small,
+  .small {
+    font-size: .75rem;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+  }
+
+    // Fix IE8 para small
+
+    .ie8 small,
+    .ie8 .small {
+      font-size: 12px;
+      margin-bottom: 24px;
+    }
+
+  // Link
+  // ==========================================================================
+
+  a {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+  }
+
+  // Listas
+  // ==========================================================================
+
+  ul,
+  ol,
+  dl {
+    list-style-position: inside;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    padding-left: 0;
+
+    // Listas dentro de listas
+
+    ul,
+    ol,
+    dl {
+      margin-bottom: 0;
+    }
+
+  }
+
+  .no-style {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .no-bullet {
+    list-style-type: none;
+  }
+
+  // Parágrafo
+  // ==========================================================================
+
+  p {
+    margin-bottom: 1.5em;
+    margin-top: 0;
+  }
+
+// ==========================================================================
+// $ Mídia: Lap
+// ==========================================================================
+
+@media handheld, only screen and (min-width : 768px) and (max-width: 1023px) {
+
+  // HTML & Body
+  // ==========================================================================
+  
+  body {
+    font-size: .75em;
+  }
+
+}
+
+// ==========================================================================
+// $ Mídia: Palm
+// ==========================================================================
+
+@media handheld, only screen and (min-width : 320px) and (max-width: 480px) {
+
+  // HTML & Body
+  // ==========================================================================
+  
+  body {
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+  }
+
+}
